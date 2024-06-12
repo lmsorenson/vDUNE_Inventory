@@ -5,12 +5,12 @@
 
 IMPLEMENT_GAME_MODULE( FvDuneInventory, vDuneInventory );
  
-void FvDuneAvatar::StartupModule()
+void FvDuneInventory::StartupModule()
 {
     UE_LOG(LogTemp, Log, TEXT("*** vDUNE INVENTORY MODULE STARTUP ***"));
 }
 
-void FvDuneAvatar::ShutdownModule()
+void FvDuneInventory::ShutdownModule()
 {
     UE_LOG(LogTemp, Log, TEXT("*** vDUNE INVENTORY MODULE SHUTDOWN ***"));
 }
